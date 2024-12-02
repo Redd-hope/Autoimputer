@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 app = FastAPI()
 
 # Configure the LLM
-model = ChatGoogleGenerativeAI(model='gemini-1.5-flash', api_key="AIzaSyA3MzKibpGjCn3VCUvE3oo4-ZRtB9H9I4M")
+model = ChatGoogleGenerativeAI(model='gemini-1.5-flash', api_key="")
 
 # Define a data model for the input
 class InputData(BaseModel):
